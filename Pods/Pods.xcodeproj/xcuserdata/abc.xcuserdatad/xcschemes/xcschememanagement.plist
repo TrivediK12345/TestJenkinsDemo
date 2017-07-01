@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-TestCaseDemo.xcscheme</key>
+		<key>Pods-TestCaseDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TestCaseDemoTests.xcscheme</key>
+		<key>Pods-TestCaseDemoTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TestCaseDemoUITests.xcscheme</key>
+		<key>Pods-TestCaseDemoUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
