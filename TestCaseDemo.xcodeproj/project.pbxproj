@@ -265,12 +265,12 @@
 					28746C821EF2A48800264C27 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = RD2FP9WM8D;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					28746C9B1EF2A48C00264C27 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = RD2FP9WM8D;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 28746C821EF2A48800264C27;
 					};
 					28746CA61EF2A48F00264C27 = {
@@ -627,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Sonal Gandhi (RD2FP9WM8D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sonal Gandhi (RD2FP9WM8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RD2FP9WM8D;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestCaseDemo/Info.plist;
@@ -635,8 +635,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Websmith.TestCaseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ba95d504-4324-4ddb-857f-9a4de7f460d7";
-				PROVISIONING_PROFILE_SPECIFIER = TestCaseDemo_AppStore;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -646,7 +646,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Sonal Gandhi (RD2FP9WM8D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sonal Gandhi (RD2FP9WM8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RD2FP9WM8D;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestCaseDemo/Info.plist;
@@ -654,8 +654,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Websmith.TestCaseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ba95d504-4324-4ddb-857f-9a4de7f460d7";
-				PROVISIONING_PROFILE_SPECIFIER = TestCaseDemo_AppStore;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -664,7 +664,7 @@
 			baseConfigurationReference = 378C10F075EBB5BBF0CCF87B /* Pods-TestCaseDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RD2FP9WM8D;
 				INFOPLIST_FILE = TestCaseDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
