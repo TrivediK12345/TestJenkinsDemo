@@ -7,15 +7,20 @@
 //
 
 #import <XCTest/XCTest.h>
+
 #import "ViewController.h"
 
 @interface TestCaseDemoTests : XCTestCase
 
 @property (nonatomic) ViewController *vcToTest;
 
+//@testable import TestCaseDemo
+
 @end
 
 @interface ViewController (Test)
+
+
 
 - (NSString *)reverseString:(NSString *)stringToReverse;
 - (void)doSomethingThatTakesSomeTimesWithCompletionBlock:(void (^)(NSString *))completion;

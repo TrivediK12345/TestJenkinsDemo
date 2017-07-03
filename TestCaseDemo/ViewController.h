@@ -14,8 +14,14 @@
 @property (weak, nonatomic) IBOutlet UITextField *txt_Email;
 @property (weak, nonatomic) IBOutlet UITextField *txt_MobileNumber;
 @property (weak, nonatomic) IBOutlet UILabel *lbl_TitleName;
-- (IBAction)clk_Login:(UIButton *)sender;
-- (BOOL)validateEmailWithString:(NSString*)checkString;
-- (BOOL)validateName:(NSString*)name;
+
+
+- (NSString *)reverseString:(NSString *)stringToReverse;
+- (void)doSomethingThatTakesSomeTimesWithCompletionBlock:(void (^)(NSString *result))completion;
+-(BOOL)validateEmail:(NSString *)emailStr;
+-(BOOL)validateMobile:(NSString*)number;
+-(BOOL)validateUsernameForCharsOnly:(NSString *)username;
+
+
 @end
 
