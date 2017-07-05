@@ -263,7 +263,7 @@
 					28746C821EF2A48800264C27 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = RD2FP9WM8D;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -273,7 +273,7 @@
 					28746C9B1EF2A48C00264C27 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = RD2FP9WM8D;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 28746C821EF2A48800264C27;
 					};
 					28746CA61EF2A48F00264C27 = {
@@ -639,8 +639,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Websmith.TestCaseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bbfc717b-2be9-4f50-97c0-850fcdad7bbe";
-				PROVISIONING_PROFILE_SPECIFIER = TestCaseDemo_Devlopement;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -659,8 +659,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Websmith.TestCaseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bbfc717b-2be9-4f50-97c0-850fcdad7bbe";
-				PROVISIONING_PROFILE_SPECIFIER = TestCaseDemo_Devlopement;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

@@ -21,7 +21,6 @@
 @interface ViewController (Test)
 
 
-
 - (NSString *)reverseString:(NSString *)stringToReverse;
 - (void)doSomethingThatTakesSomeTimesWithCompletionBlock:(void (^)(NSString *))completion;
 - (BOOL)validateEmail:(NSString *)emailStr;
