@@ -199,7 +199,6 @@
 				28746C811EF2A48800264C27 /* Resources */,
 				B44D09AD9E43CE8D59832C18 /* [CP] Embed Pods Frameworks */,
 				D821487173FCE0CCD60B3788 /* [CP] Copy Pods Resources */,
-				288B3FD71F0CB432008997FA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -333,19 +332,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		288B3FD71F0CB432008997FA /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "ruby -v\nruby \"${SRCROOT}/commandlineunittests.rb\"\nif ENV['SL_RUN_UNIT_TESTS'] then\nlauncher_path = \"/usr/local/bin/ios-sim\"\n#File.join(ENV['SRCROOT'], \"Scripts\", \"ios-sim\")\ntest_bundle_path= File.join(ENV['BUILT_PRODUCTS_DIR'], \"#{ENV['PRODUCT_NAME']}.#{ENV['WRAPPER_EXTENSION']}\")\n\nenvironment = {\n    'DYLD_INSERT_LIBRARIES' => \"/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection\",\n    'XCInjectBundle' => test_bundle_path,\n    'XCInjectBundleInto' => ENV[\"TEST_HOST\"]\n}\n\nenvironment_args = environment.collect { |key, value| \"--setenv #{key}=\\\"#{value}\\\"\"}.join(\" \")\n\napp_test_host = File.dirname(ENV[\"TEST_HOST\"])\nsystem(\"#{launcher_path} launch \\\"#{app_test_host}\\\" #{environment_args} --args -SenTest All #{test_bundle_path}\")\nelse\nputs \"SL_RUN_UNIT_TESTS not set - Did not run unit tests!\"\nend";
-		};
 		637A6188ACDA6E1B6C6388FA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
