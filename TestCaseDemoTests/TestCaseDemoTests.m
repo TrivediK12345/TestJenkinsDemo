@@ -49,6 +49,7 @@
     NSString *expectedReversedString = @"ydnasiemanymih";
     XCTAssertEqualObjects(expectedReversedString, reversedString, @"The reversed string did not match the expected reverse");
 }
+// test cases file it check for unit test....
 -(void)testEmailString
 {
     NSString *originalString = @"test@gmail.com";
